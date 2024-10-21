@@ -41,9 +41,10 @@ function docSoTiengNhat(nums) {
         if (num === 0) {
             if (hang !== 3) {
                 hang += 1;
-            } else {
-                hang = 0;
-            }
+            } 
+            // else {
+            //     hang = 0;
+            // }
             // continue;
         }
         if (hang === 0) { // hàng nghìn
