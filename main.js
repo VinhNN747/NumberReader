@@ -44,7 +44,7 @@ function docSoTiengNhat(nums) {
             } else {
                 hang = 0;
             }
-            continue;
+            // continue;
         }
         if (hang === 0) { // hàng nghìn
             if (num === 8) {
