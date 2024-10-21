@@ -42,10 +42,10 @@ function docSoTiengNhat(nums) {
             if (hang !== 3) {
                 hang += 1;
             } 
-            // else {
-            //     hang = 0;
-            // }
-            // continue;
+            else {
+                hang = 0;
+            }
+            continue;
         }
         if (hang === 0) { // hàng nghìn
             if (num === 8) {
